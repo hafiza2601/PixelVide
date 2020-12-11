@@ -1,0 +1,53 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'team.css' %}">
+<html>
+<head>
+<title>champion</title>
+</head>
+<body id ="bg" style="background-image: url('{%static "download.jpeg"%}')">
+
+<body>
+
+<div class="table">
+    <table class ="center">
+    <tr class="row">
+    <th style="text-align:left">Group A</th>
+    <th style="text-align:left">Group B</th>
+    <th style="text-align:left">Group C</th>
+    <th style="text-align:left">Group D</th >
+    </tr>
+    <tr>
+    {% for list in list1 %}
+    <td>
+    {%for l in list%}
+    <div class="left"> <img class="image" src="{{l.logo.url}}" width="20" height="20"> {{l.name}}</div><br>
+    {% endfor %}
+    </div>
+    {% endfor %}
+    </td>
+    </tr>
+    <tr>
+    <th style="text-align:left">Group E</th>
+    <th style="text-align:left">Group F</th>
+    <th style="text-align:left">Group G</th>
+    <th style="text-align:left">Group H</th>
+    </tr>
+
+    <tr>
+    {% for list in list2%}
+    
+    <td>
+    {%for l in list%}
+    <div class="left"> <img class="image" src="{{l.logo.url}}" width="20" height="20"> {{l.name}}</div><br>
+    {% endfor %}
+    </div>
+    {% endfor %}
+    </td>
+    </tr>
+
+    </table>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+#bg {
+    background-repeat: no-repeat;
+    background-size: 2000px 900px;
+    background-position: top;
+    background-attachment: fixed;
+}
+.center{
+    margin-left: 460px;
+    margin-right:150px ;
+    margin-top: 160px;
+    width: 50%;
+}
+.row{
+    
+    margin-bottom: 5px;
+}
+th{
+    padding-bottom: 2em;
+    font-size: 25px;
+    color: aliceblue;
+}
+td{
+    text-align: left;
+    color: aliceblue;
+    font-size: 22px;
+    font-style: obliques;
+}
+
+.left{
+    padding-left: 1px;
+}
