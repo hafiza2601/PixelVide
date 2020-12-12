@@ -10,5 +10,9 @@
 
 # PixelVide
 Random Team genarator
+I have created this RANDOM TEAM GENERATOR USING:
+frontend : HTML , CSS , javascript 
+backend : Django(python) 
+Database : sqlite
 
 ![](webPage/webpage.png)
