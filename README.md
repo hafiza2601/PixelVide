@@ -9,10 +9,10 @@
 10. start the server
 
 # PixelVide
-Random Team genarator
+
 I have created this RANDOM TEAM GENERATOR USING:
-frontend : HTML , CSS , javascript 
-backend : Django(python) 
-Database : sqlite
+1. frontend : HTML , CSS , javascript 
+2. backend : Django framework (python)
+3. Database : sqlite
 
 ![](webPage/webpage.png)
