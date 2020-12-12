@@ -1,6 +1,3 @@
-# PixelVide
-Random Team genarator
-
 # Installation process:
 1. mkdir assignment
 2. make a virtual enviroment
@@ -10,3 +7,8 @@ Random Team genarator
 6. pip install -r requirements.txt
 9. load fixture using : python manage.py loaddata /fixtures/initial_data.json
 10. start the server
+
+# PixelVide
+Random Team genarator
+
+![](webPage/webpage.png)
