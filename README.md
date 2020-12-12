@@ -2,7 +2,7 @@
 Random Team genarator
 
 # Installation process:
-1. mkdir project
+1. mkdir assignment
 2. make a virtual enviroment
 3. activate virtual enviroment.
 4. cd /project
